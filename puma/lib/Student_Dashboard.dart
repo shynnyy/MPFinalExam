@@ -5,7 +5,7 @@
 import 'package:flutter/material.dart';
 
 class Student_Dashboard extends StatefulWidget {
-  const Student_Dashboard({Key? key}) : super(key: key);
+  const Student_Dashboard({super.key});
 
   @override
   State<StatefulWidget> createState() {

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'reusable_widgets/reusable_widget.dart';
 
 class Admin_Dashboard extends StatefulWidget {
-  const Admin_Dashboard({Key? key}) : super(key: key);
+  const Admin_Dashboard({super.key});
 
   @override
   State<StatefulWidget> createState() {
@@ -18,7 +18,7 @@ class _AdminDashboardState extends State<Admin_Dashboard> {
       appBar: AppBar(
         title: const Text('Admin Dashboard'),
       ),
-      body: Center(
+      body: const Center(
         child: Text(
           'Welcome to the Admin Dashboard',
           style: TextStyle(
